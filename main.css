@@ -1,0 +1,222 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.left {
+  background: url('img/Atif O2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 480px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+}
+
+.right {
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+}
+
+/***************************
+Headings
+***************************/
+
+
+.heading {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: 'Special Elite', cursive;
+}
+
+h2 {
+  margin: 0 auto;
+  padding-top: 1em;
+  font-family: 'Special Elite', cursive;
+}
+
+
+/***************************
+Gallery
+***************************/
+
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px auto 40px auto;
+}
+
+.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 350px;
+  height: 255px;
+  margin: 20px auto;
+}
+
+.card-banner {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 900;
+}
+
+#card1 {
+  border-top-left-radius: 3%; 
+  border-radius: 3%;
+}
+
+#card2 {
+  border-radius: 3%;
+}
+
+.fixed-size {
+  width: 100%;
+}
+
+
+/***************************
+Banner
+***************************/
+
+
+.banner {
+  padding: 0 0 40px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#quote {
+  display: block;
+  height: 7em;
+  width: 7em;
+  margin: auto;
+  border-radius: 100%;
+  border: 2px solid #000;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+}
+
+.banner-text {
+  margin: auto 5%;
+}
+
+#banner-text-quote {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1em;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  border-bottom-left-radius: 5%;
+}
+
+#banner-text-peter {
+  text-align: center;
+  font-size: 0.9em;
+  margin: -1em auto;
+}
+
+
+/***************************
+Social text and icons
+***************************/
+
+
+.social-text {
+  text-align: center;
+  font-size: 1.5em;
+  color: #22211f;
+  margin-top: 2em;
+}
+
+.social-icons {
+  display: flex;
+  width: 100%;
+}
+
+.social-flex {
+  text-align: center;
+  justify-content: center;
+  margin: -2em auto 0;
+}
+
+.social-flex img {
+  width: 20%;
+}
+
+
+/***************************
+External link to songs
+***************************/
+
+
+.music-link {
+  text-align: center;
+}
+
+.music-link h3 {
+  font-family: 'Special Elite', cursive;
+  margin: 2em auto 0;
+}
+
+
+/***************************
+Twitter
+***************************/
+
+
+.tweet {
+  text-align: center;
+  margin-top: -1em;
+  padding: 0 0 20px 0;
+}
+
+.tweet h6 {
+  font-size: 0.8em;
+}
+
+.tweet h6 {
+  font-size: 0.8em;
+  font-weight: 900;
+}
+
+
+/***************************
+Dummy Image
+***************************/
+
+
+.musician img {
+ display: block;
+ margin: 20px auto;
+ height: 8em;
+ width: 5em;
+}
+
+
+
+
+/***************************
+links colors
+***************************/
+
+
+a {
+  color: #000;
+}
+
+a.selected, a:hover {
+  color: #fff;
+}
+
+.tweet h6 a {
+  color: #000;
+}

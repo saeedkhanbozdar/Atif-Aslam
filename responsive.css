@@ -1,0 +1,37 @@
+@media screen and (min-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .left{
+    flex: 1;
+    min-height: 100vh;
+  }
+
+  .right {
+    flex: 1.5;
+    width: 100vh;
+  }
+
+  .banner {
+    display: flex;
+  }
+
+  .banner-img {
+    flex: 1;
+  }
+
+  .banner-text {
+    flex: 1.5;
+    margin: -1em 5% 0 0;
+  }
+
+  #banner-text-quote {
+    text-align: center;
+  }
+
+  
+}
+
